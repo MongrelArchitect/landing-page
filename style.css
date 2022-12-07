@@ -7,7 +7,8 @@ body {
 
 body,
 .header,
-.header > ul {
+.header > ul,
+.hero-section {
   display: flex;
 }
 
@@ -24,11 +25,40 @@ a {
   text-decoration: none;
 }
 
-.header {
-  padding: 10px 50px 10px 50px;
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.hero-message {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-section > img {
+  align-self: center;
+}
+
+button {
+  background-color: #3882f6;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: #f9faf8;
+  padding: 8px 25px 8px 25px;
+}
+
+.header,
+.hero-section {
+  padding: 10px 200px 10px 200px;
   background-color: #1f2937;
   flex: 1;
   justify-content: space-between;
+  align-items: center;
+  gap: 50px;
 }
 
 .header-logo {
