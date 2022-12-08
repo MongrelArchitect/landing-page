@@ -10,7 +10,8 @@ body,
 .header > ul,
 .hero-section,
 .information,
-.info-images {
+.info-images,
+.quote-section {
   display: flex;
 }
 
@@ -51,6 +52,23 @@ h1 {
 .hero-message {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.quote-section {
+  flex-direction: column;
+  padding: 60px 20% 60px 20%;
+  background-color: #e5e7eb;
+  margin-top: 100px;
 }
 
 .hero-section > img {
