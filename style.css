@@ -11,7 +11,8 @@ body,
 .hero-section,
 .information,
 .info-images,
-.quote-section {
+.quote-section,
+.action-section {
   display: flex;
 }
 
@@ -33,6 +34,20 @@ h1 {
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 0;
+}
+
+.action-section { 
+  padding: 24px 48px 24px 48px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 100px;
+  border-radius: 12px;
+}
+
+.action-text {
+  color: #f9faf8;
+  font-size: 18px;
 }
 
 .information {
@@ -100,6 +115,10 @@ button {
   border-radius: 5px;
   color: #f9faf8;
   padding: 8px 25px 8px 25px;
+}
+
+.action-section > button {
+  border: 2px solid #f9faf8;
 }
 
 .header,
